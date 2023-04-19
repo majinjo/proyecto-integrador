@@ -19,25 +19,6 @@ body {
     background-size:auto;
     background-color: #f0f3bd;
 }
-<<<<<<< Updated upstream
-
-.cabecera {
-  top:0;
-  left: 0;
-  position: fixed;
-  display:flex;
-  background: #028090;
-  justify-content: space-between;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  width: 100%;
-  
-}
-
-.cabecera__logo {
-    padding-left: 50px;
-    align-items: center;
-=======
  /* header desde*/
 .cabecera {
   display: flex;
@@ -46,7 +27,6 @@ body {
   padding-top: 3px;
   padding-bottom: 1px;
   width: 100%;
->>>>>>> Stashed changes
 }
 
 .cabecera__menu {
@@ -60,67 +40,21 @@ body {
 .cabecera__item {
     margin-right: 50px;
     text-transform: uppercase; /* transforma minúsculas en mayusculas */
-<<<<<<< Updated upstream
-    font-family: 'Roboto', 'Open Sans', sans-serif;
-=======
     font-family: 'Poppins', sans-serif; /* tipo de fuente */
->>>>>>> Stashed changes
     font-size: larger;
     font-weight: bolder;
 }
 
 .cabecera__item a {
     text-decoration: none; /* le quita el subrayado del link */
-<<<<<<< Updated upstream
-}
-
-body {
-    /*background-image: url(ubicacion de la foto de fondo, debe ser la misma carpeta); */
-    background-size:auto;
-    background-color: #f0f3bd
-}
-
-.cabecera {
-  display: flex;
-  background: #028090;
-  justify-content: space-between;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  width: 100%;
-=======
     color: #f0f3bd;
->>>>>>> Stashed changes
 }
 
 .cabecera__logo {
   padding-left: 50px;
   align-items: center;
 }
-<<<<<<< Updated upstream
-
-.cabecera__menu {
-  display: flex;
-  width: 700px;
-  align-items: center;
-  list-style: none;
-  padding-top: 5px;
-}
-
-.cabecera__item {
-  margin-right: 50px;
-  text-transform: uppercase; /* transforma minúsculas en mayusculas */
-  font-family: 'Roboto', 'Open Sans', sans-serif;
-  font-size: larger;
-  font-weight: bolder;
-}
-
-.cabecera__item a {
-  text-decoration: none; /* le quita el subrayado del link */
-  color: #f0f3bd;
-}
-=======
 /* header hasta*/
->>>>>>> Stashed changes
 
 .formulario {
     text-align: center;
@@ -134,18 +68,6 @@ body {
   margin: 30px auto;
   border-radius: 8px;
   padding-top: 5px;
-<<<<<<< Updated upstream
-  padding-bottom: 5px;  
-  background-color: #c7c3c3; 
-  padding-left: 5px; 
-    /*usando generador de css*/
-    padding-left: 5px; 
-    background: rgba(71,151,197,0.95);
-  background: linear-gradient(166deg,rgba(71,151,197,0.95) 0%, rgba(71,197,193,0.94) 80%);
-  background: -webkit-linear-gradient(166deg,rgba(71,151,197,0.95) 0%, rgba(71,197,193,0.94) 80%);
-  background: -moz-linear-gradient(166deg,rgba(71,151,197,0.95) 0%, rgba(71,197,193,0.94) 80%);
-  
-=======
   padding-bottom: 5px;
   /*usando generador de css*/
   padding-left: 5px;
@@ -153,7 +75,6 @@ body {
   background: linear-gradient(166deg, rgba(71, 151, 197, 0.95) 0%, rgba(71, 197, 193, 0.94) 80%);
   background: -webkit-linear-gradient(166deg, rgba(71, 151, 197, 0.95) 0%, rgba(71, 197, 193, 0.94) 80%);
   background: -moz-linear-gradient(166deg, rgba(71, 151, 197, 0.95) 0%, rgba(71, 197, 193, 0.94) 80%);
->>>>>>> Stashed changes
 }
 
 input{
@@ -166,19 +87,11 @@ input{
   margin-top: 1px;  
   padding-left: 1px;
   margin-bottom: 1px; 
-<<<<<<< Updated upstream
-   /*usando generador de css*/
-   border-radius: 77px 77px 77px 77px;
-   -webkit-border-radius: 77px 77px 77px 77px;
-   -moz-border-radius: 77px 77px 77px 77px;
-   background: #ffffff;
-=======
   /*usando generador de css*/
   border-radius: 77px 77px 77px 77px;
   -webkit-border-radius: 77px 77px 77px 77px;
   -moz-border-radius: 77px 77px 77px 77px;
   background: #ffffff;
->>>>>>> Stashed changes
 }
 
 textarea{
@@ -187,21 +100,13 @@ textarea{
   height: 80px; 
   
   border-style: solid; 
-<<<<<<< Updated upstream
-
-=======
   
->>>>>>> Stashed changes
   border-color: #4797c5; 
   margin-top: 5px;  
   padding-left: 5px;
   margin-bottom: 5px; 
   padding-top: 5px; 
-<<<<<<< Updated upstream
-  /*usando generador de css*/
-=======
 /*usando generador de css*/
->>>>>>> Stashed changes
   border-radius: 9px 9px 9px 9px;
   -webkit-border-radius: 9px 9px 9px 9px;
   -moz-border-radius: 9px 9px 9px 9px;
@@ -220,15 +125,6 @@ button{
   margin-bottom: 5px; 
   margin-top: 5px;   
   text-transform: uppercase;
-<<<<<<< Updated upstream
-
-  border-color: #4797c5; 
-  border-style: solid; 
- 
-  width: 150px;   
-  cursor: pointer;
-  /*usando generador de css*/
-=======
   
   border-color: #4797c5; 
   border-style: solid; 
@@ -236,15 +132,11 @@ button{
   width: 150px;   
   cursor: pointer;
  /*usando generador de css*/
->>>>>>> Stashed changes
   border-radius: 46px 46px 46px 46px;
   -webkit-border-radius: 46px 46px 46px 46px;
   -moz-border-radius: 46px 46px 46px 46px;
   background: #256b94;
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 }
 
 
@@ -255,11 +147,7 @@ button p{
 h1{
   font-size: 24px; 
   text-align: letf; 
-<<<<<<< Updated upstream
-  padding-bottom: 1px; 
-=======
   
->>>>>>> Stashed changes
   color: #0e0e0e;
 }
 
@@ -273,11 +161,6 @@ p{
   font-size: 14px; 
   color: #0e0e0e; 
 }
-<<<<<<< Updated upstream
-span{
-  color: #ab4493; 
-}
-=======
 
 span{
   color: #ab4493; 
@@ -287,7 +170,6 @@ span{
   color: #0e0e0e;  
  
 }
->>>>>>> Stashed changes
 
 ::-webkit-input-placeholder {
  color: #7f8584;
@@ -306,10 +188,6 @@ span{
 .formulario textarea:focus{
   outline:0;
   border: 3px solid #00a896;}
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 
 /* --------------------------------------- */
 /* las clases van con .clase, y pueden ir por separado, en lo personal prefiero ponerlas por separado para no marearme*/
